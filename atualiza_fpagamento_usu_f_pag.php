@@ -7,13 +7,13 @@ error_reporting(0);
 //error_reporting(E_ALL ^ E_NOTICE);
 
 //CONEXTA BANCO MSSQLSERVER.
-require_once('vaibrasil1.php');
+require_once('vaibrasil1.php'); //arquivo com dados para conectar ao servidor... removido do get
 
 $sql_mssql = "SELECT ctpCliId,ctpTapId FROM clienteTabPreco"; 
 $result_mssql = odbc_exec($connect_mssql , $sql_mssql);
 
 //Conexao MYsqlServer
-require_once('vaibrasil2.php');
+require_once('vaibrasil2.php'); //arquivo com dados para conectar ao servidor... removido do get
 //LIMPA TABELA DE FABRICAS.
 
 //LIMPA FORMA DE PAGAMENTO
