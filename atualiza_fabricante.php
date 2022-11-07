@@ -4,16 +4,17 @@ error_reporting(0);
 // LIBERAR APOS MANUTENÇÃO NOS CODIGOS PHP
 ?>
 <?php
-//CONEXTA BANCO MSSQLSERVER.
-require_once('vaibrasil1.php');
+//CONEXTA BANCO MSSQLSERVER. 
+require_once('vaibrasil1.php'); //arquivo com dados para conectar ao servidor... removido do get
 $sql_mssql = "SELECT fabId, fabNome FROM fabricante"; 
 $result_mssql = odbc_exec($connect_mssql , $sql_mssql);
 
 //Conexao MYsqlServer
-require_once('vaibrasil2.php');
+require_once('vaibrasil2.php'); //arquivo com dados para conectar ao servidor... removido do get
 
 //LIMPA TABELA DE FABRICAS.
-$query_mysql = "DELETE FROM fabricas";
+$query_mysql = "DELETE FROM fabricas"; //metodo encontrado na epoca para atualizar fabricas... 
+//a base real era do sqlserver entao o site que utilizava mysql nao importava a marca.. pois era apenas para visualização do internauta
 
 mysql_query($query_mysql,$connect_mysql);
 $query_mysql = mysql_query($query_mysql,$connect_mysql);
