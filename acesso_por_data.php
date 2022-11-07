@@ -11,7 +11,6 @@
 
 //id cliente!! variavel sistema
     $id_sessao = $_SESSION['usuarioID'];
-
 ?>
 
 
@@ -82,7 +81,7 @@ $(document).ready(function() {
 
 $usuario = $_POST['txtsenhaatual'];
   
-$connect = mysql_connect("localhost","root","********");
+$connect = mysql_connect("localhost","usuario","senha");
 mysql_select_db("db_dados",$connect);
 
 $Dados_cliente = "select id,nome, usuario,senha from usuarios where usuario like '$usuario'";
