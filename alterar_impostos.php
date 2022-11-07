@@ -30,7 +30,7 @@ $icmsnew=substr_replace($icms, '.', strpos($icms, ","), 1);
 
 
 // Dados do banco MYQSL-qbex-local
-$connect_altera_imposto = mysql_connect("localhost","root","*******");
+$connect_altera_imposto = mysql_connect("localhost","usuario","senha");
 mysql_select_db("db_table",$connect_altera_imposto);
 
 $sql_altera_imposto = "UPDATE imposto
