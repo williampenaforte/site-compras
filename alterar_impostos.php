@@ -4,9 +4,9 @@ error_reporting(0);
 // LIBERAR APOS MANUTENÇÃO NOS CODIGOS PHP
 
 include("seguranca.php"); // Inclui o arquivo com o sistema de seguranÃ§a
-protegePagina(); // Chama a funÃ§Ã£o que protege a pÃ¡gina
+protegePagina(); // Chama a funçãoo que protege a pagina
 
-$id_sessao = $_SESSION['usuarioID']; //RECEBE O CODIGO DE QUEM ESTA LOGADO DA SESSÃO 
+$id_sessao = $_SESSION['usuarioID']; //RECEBE O CODIGO DE QUEM ESTA LOGADO DA SESSaO 
 
 $id = $_POST['txtid']; //echo $id;
 $cfop = $_POST['txtcfop']; //echo $cfop; 
