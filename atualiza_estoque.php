@@ -5,13 +5,13 @@ error_reporting(0);
 ?>
 <?php
 //CONEXTA BANCO MSSQLSERVER.
-require_once('vaibrasil1.php');
+require_once('vaibrasil1.php'); //arquivo com dados para conectar ao servidor... removido do get
 $sql_mssql = "SELECT procodigo, proEstoqueAtual, proVenda FROM produto 
 where proDesativaProd = 0"; 
 $result_mssql = odbc_exec($connect_mssql , $sql_mssql);
 
 //conexta banco mysql
-require_once('vaibrasil2.php');
+require_once('vaibrasil2.php');//arquivo com dados para conectar ao servidor... removido do get
 ?>
 
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
