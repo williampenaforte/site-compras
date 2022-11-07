@@ -6,16 +6,16 @@ error_reporting(0);
 ?>
 <?php
 //CONEXTA BANCO MSSQLSERVER.
-require_once('vaibrasil1.php');
+require_once('vaibrasil1.php'); //arquivo com dados para conectar ao servidor... removido do get
 $sql_mssql = "SELECT proid, procodigo, prodescricao, profab, proUn, zzz_proEstoqueAtual, proVenda FROM produto 
 where proDesativaProd = 0"; 
 $result_mssql = odbc_exec($connect_mssql , $sql_mssql);
 
 //Conexao MYsqlServer
-require_once('vaibrasil2.php');
+require_once('vaibrasil2.php'); //arquivo com dados para conectar ao servidor... removido do get
 
 //LIMPA TABELA DE FABRICAS.
-$query_mysql = "DELETE FROM produtos";
+$query_mysql = "DELETE FROM produtos"; // removendo item para atualização afim de reduzir custo de processando fazendo where e posrteiromente update. deletamos e iserimo dados novos.. praticidade pois os dados exibidos so server para o internauta.. uma base de dados era manupulada por outro software internamente na empresa.
 
 mysql_query($query_mysql,$connect_mysql);
 $query_mysql = mysql_query($query_mysql,$connect_mysql);
