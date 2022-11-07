@@ -17,7 +17,7 @@ $usuario_atual = $_POST ['txtsenhaatual'];
 $id_usu = $_POST ['txtid'];
 
 if ($id_usu == null){
-$connect = mysql_connect("localhost","root","******");
+$connect = mysql_connect("localhost","usuario","senha");
 mysql_select_db("db_site",$connect);
 
 $sql_altera_senha_vendas = "select id, senha from usuarios where id = '$id_sessao'";
