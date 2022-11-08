@@ -3,10 +3,10 @@
 error_reporting(0); 
 // LIBERAR APOS MANUTENÇÃO NOS CODIGOS PHP
 
-// Inclui o arquivo com o sistema de seguranÃ§a
+// Inclui o arquivo com o sistema de seguranca
 include("seguranca.php"); 
 
-// Chama a funÃ§Ã£o que protege a pÃ¡gina
+// Chama a funcao que protege a pagina
 protegePagina(); 
 
 //id cliente!! variavel sistema

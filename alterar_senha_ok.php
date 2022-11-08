@@ -5,8 +5,8 @@ error_reporting(0);
 ?>
 
 <?php
-include("seguranca.php"); // Inclui o arquivo com o sistema de seguranÃ§a
-protegePagina(); // Chama a funÃ§Ã£o que protege a pÃ¡gina
+include("seguranca.php"); // Inclui o arquivo com o sistema de seguranca
+protegePagina(); // Chama a funÃ§Ã£o que protege a pagina 
 
 $id_sessao = $_SESSION['usuarioID']; //RECEBE O CODIGO DE QUEM ESTA LOGADO DA SESSÃO 
 //echo $id_sessao;?><br/><?php

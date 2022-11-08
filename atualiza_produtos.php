@@ -1,9 +1,10 @@
 
 <?php 
 // BLOQUER QUANDO FOR EFETUAR MANUTENÇÃO
-error_reporting(0); 
 // LIBERAR APOS MANUTENÇÃO NOS CODIGOS PHP
+error_reporting(0);
 ?>
+
 <?php
 //CONEXTA BANCO MSSQLSERVER.
 require_once('vaibrasil1.php'); //arquivo com dados para conectar ao servidor... removido do get

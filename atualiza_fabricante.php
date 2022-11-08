@@ -1,16 +1,17 @@
 <?php 
 // BLOQUER QUANDO FOR EFETUAR MANUTENÇÃO
-error_reporting(0); 
 // LIBERAR APOS MANUTENÇÃO NOS CODIGOS PHP
+error_reporting(0); 
+
 ?>
 <?php
 //CONEXTA BANCO MSSQLSERVER. 
-require_once('vaibrasil1.php'); //arquivo com dados para conectar ao servidor... removido do get
+require_once('vaibrasil1.php'); //arquivo com dados para conectar ao servidor... 
 $sql_mssql = "SELECT fabId, fabNome FROM fabricante"; 
 $result_mssql = odbc_exec($connect_mssql , $sql_mssql);
 
 //Conexao MYsqlServer
-require_once('vaibrasil2.php'); //arquivo com dados para conectar ao servidor... removido do get
+require_once('vaibrasil2.php'); //arquivo com dados para conectar ao servidor... 
 
 //LIMPA TABELA DE FABRICAS.
 $query_mysql = "DELETE FROM fabricas"; //metodo encontrado na epoca para atualizar fabricas... 

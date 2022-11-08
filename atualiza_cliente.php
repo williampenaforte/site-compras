@@ -1,11 +1,13 @@
 <?php 
 // BLOQUER QUANDO FOR EFETUAR MANUTENÇÃO
-error_reporting(0); 
 // LIBERAR APOS MANUTENÇÃO NOS CODIGOS PHP
+error_reporting(0); 
+
 ?>
 <?php
+
 //CONEXTA BANCO MSSQLSERVER.
-require_once('vaibrasil1.php'); //arquivo com dados para conectar ao servidor... removido do get
+require_once('vaibrasil1.php'); //arquivo com dados para conectar ao servidor... 
 $sql_mssql = "SELECT cliid, cliDescontoAutoAliq from cliente
 		where clitipo = 1 
 		and clidesativa = 0
@@ -15,7 +17,8 @@ $sql_mssql = "SELECT cliid, cliDescontoAutoAliq from cliente
 $result_mssql = odbc_exec($connect_mssql , $sql_mssql);
 
 //conexta banco mysql
-require_once('vaibrasil2.php');//arquivo com dados para conectar ao servidor... removido do get
+require_once('vaibrasil2.php');//arquivo com dados para conectar ao servidor... 
+
 ?>
 
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">

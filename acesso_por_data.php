@@ -14,7 +14,6 @@
 ?>
 
 
-
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
@@ -52,6 +51,7 @@ $(document).ready(function() {
 -->
 </style>
 </head>
+
 <body>
 <div id="geral">
 <div id="header">
@@ -79,15 +79,15 @@ $(document).ready(function() {
   <div id="sidebar">
 <?php
 
-$usuario = $_POST['txtsenhaatual'];
+$usuario = $_POST['txtsenhaatual']; // recupera senha atual usuario
   
-$connect = mysql_connect("localhost","usuario","senha");
-mysql_select_db("db_dados",$connect);
+$connect = mysql_connect("localhost","usuario","senha"); // conecta com banco
+mysql_select_db("db_dados",$connect); // seleciona a base 
 
-$Dados_cliente = "select id,nome, usuario,senha from usuarios where usuario like '$usuario'";
+$Dados_cliente = "select id,nome, usuario,senha from usuarios where usuario like '$usuario'"; //query
 
-mysql_query($Dados_cliente,$connect);
-$query_usuario = mysql_query($Dados_cliente,$connect);
+mysql_query($Dados_cliente,$connect); // conecta com banco
+$query_usuario = mysql_query($Dados_cliente,$connect); // seleciona a base 
 
 ?>
     <!--  <table width="900" height="27" border="1" align="center"> -->

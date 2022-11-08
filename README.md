@@ -16,6 +16,7 @@ Fone (63) 9 8454-3700 - (63) 9 9109 4623
 linkedin https://www.linkedin.com/in/william-pena-forte/
 
 Meu canal no youtube https://www.youtube.com/channel/UCzbWFa6v5lq5SRRKXLFjV0g
+
  
  
  

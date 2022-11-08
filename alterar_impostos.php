@@ -1,10 +1,12 @@
 <?php
 // BLOQUER QUANDO FOR EFETUAR MANUTENÇÃO
-error_reporting(0); 
 // LIBERAR APOS MANUTENÇÃO NOS CODIGOS PHP
+error_reporting(0); 
+
 
 include("seguranca.php"); // Inclui o arquivo com o sistema de seguranÃ§a
 protegePagina(); // Chama a funçãoo que protege a pagina
+
 
 $id_sessao = $_SESSION['usuarioID']; //RECEBE O CODIGO DE QUEM ESTA LOGADO DA SESSaO 
 
@@ -40,5 +42,6 @@ $sql_altera_imposto = "UPDATE imposto
 mysql_query($sql_altera_imposto,$connect_altera_imposto);
 header("location: consulta_impostos_pesquisa.php");
 
-mysql_close($connect_altera_imposto); 
+mysql_close($connect_altera_imposto);
+ 
 ?>
