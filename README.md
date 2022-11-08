@@ -8,7 +8,7 @@
 
 # Não só php como também Estou estudando PYTHON
 
-# Estou atualmente hoje 07/11/2022 a procura de trabalho como programador jr
+# Estou diponivel 07/11/2022 a procura de trabalho como programador jr
 
 # Espero que goste do meu formato de trabalho. Mas lembre-se estou 100% disposto a aprender coisas novas.
 
