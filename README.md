@@ -1,34 +1,15 @@
-# site-compras construído em 2014 para uma empresa "X"
+# Site de compras construído em 2014.
+  Meu segundo grande projeto em PHP.
+  Aqui no Git disponibilizo uma pequena parte dele como apresentação curricular.
 
-# trabalhei em outro departamento nesta empresa. Então um dia alguém ficou sabendo e que sabia programar e me perguntaram se eu toparia o projeto.
-
-# Fiz o projeto trata-se do meu segundo grande projeto em PHP.
-
-# me considero programador junior, mas não tem muita experiência mas tenho muita vontade de aprender. 
-
-# Não só php como também Estou estudando PYTHON
-
-# Estou diponivel 07/11/2022 a procura de trabalho como programador jr
-
-# Espero que goste do meu formato de trabalho. Mas lembre-se estou 100% disposto a aprender coisas novas.
-
-# Ser pago por isso e trabalhar com cuidado, paixão, profissionalismo e dedicação
+# Me considero programador junior, não tem muita experiência, em contra partida tenho muita vontade de aprender. 
+  Não só php como também Estou estudando PYTHON.
+  Estou diponivel 07/11/2022 ao mercado de trabalho como programador Php jr
 
 # Sou William Pena Forte de Oliveira programador ASP.Clássico, VB6, Php e estudante de C# e Python
-
-# Entre em contato comigo estou disponível atualmente 
-
-# email williampenaforte@gmail.com
-
-# fone 63 9 8454 3700
-
-# linkedin https://www.linkedin.com/in/william-pena-forte/
-
-# trabalhei muito com vendas, compras e outras coisas mais.
-
-# sou formado em Gestão de TI a muito tempo e nunca peguei pra entrar no mercado
-
-# acredito que esta é a hora
+  E-mail williampenaforte@gmail.com
+  Fone (63) 9 8454-3700
+  linkedin https://www.linkedin.com/in/william-pena-forte/
 
 # entre em contato comigo
 
